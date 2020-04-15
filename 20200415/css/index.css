@@ -1,0 +1,36 @@
+html, body {
+    background: #999999;
+}
+
+.Waterfall {
+    width: 730px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card {
+    width: 230px;
+    box-sizing: border-box;
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+
+.Imgbox {
+    background: url(../images/default.gif)no-repeat center center;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    background: cornflowerblue;
+}
